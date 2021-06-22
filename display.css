@@ -1,0 +1,45 @@
+/* Display */
+
+ /* Seu default coloca itens filhos em linha e transforma em flex itens*/
+.flex{
+    display: flex;
+}
+
+
+/* Quebra linha dependendo da quantidade de itens e container */
+.flex-wrap{
+    flex-wrap:wrap;
+}
+
+
+/* os itens ocupam o tamanho total do container, dividindo os itens em porcentagens iguais para caber no container */
+.flex-item-1 {
+    flex: 1;
+}
+
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
